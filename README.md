@@ -16,6 +16,9 @@ _Multiple components that renders different Routed page using React_
 | User input incorrect URL| Input: "Name" | Output: "Error Page"  |
 | User clicks a Link | Input: "User Clicked" | Output: Details of Link |
 
+### Example of Routing Structure
+
+![routing](https://user-images.githubusercontent.com/43967399/52908288-b7c89500-3227-11e9-9c60-69518e098a2d.png)
 
 
 ## Technologies Used
