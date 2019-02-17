@@ -4,8 +4,8 @@ import React from 'react';
 function Home() {
     return (
         <div class="home">
-            <h1>glen_sale@yahoo.com</h1>
-            <h2>Call : 206-910-6531</h2>
+            <h1>Email: glen_sale@yahoo.com</h1>
+            <h2>Phone: 206-910-6531</h2>
 
             <h2>Why Epicodus: Epicodus allows 24/7 access computer lab providing</h2>
 
