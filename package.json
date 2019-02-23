@@ -1,46 +1,25 @@
 {
-  "name": "porfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint src/** src/**/**; exit 0",
-    "lint-fix": "eslint src/** src/**/** --fix; exit 0",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/glenpogz36/React-Porfolio"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/glenpogz36/React-Porfolio"
-  },
-  "homepage": "https://github.com/glenpogz36/React-Porfolio",
+  "name": "react-porfolio",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "prop-types": "^15.5.10",
-    "react": "^15.5.4",
-    "react-bootstrap": "^1.0.0-beta.5",
-    "react-dom": "^15.5.4",
-    "react-router-dom": "^4.0.0",
-    "styled-jsx": "^3.2.1"
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5"
   },
-  "devDependencies": {
-    "babel-core": "^6.24.1",
-    "babel-loader": "^7.0.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "eslint": "^4.13.1",
-    "eslint-loader": "^1.9.0",
-    "eslint-plugin-react": "^7.5.1",
-    "file-loader": "^1.1.6",
-    "html-webpack-plugin": "^2.29.0",
-    "react-hot-loader": "^3.0.0-beta.7",
-    "url-loader": "^0.6.2",
-    "webpack": "^3.4.0",
-    "webpack-dev-server": "^2.5.0"
-  }
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
